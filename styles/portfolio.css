@@ -1,0 +1,47 @@
+/* Common shared */
+body {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Kaisei Decol", serif;
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 15px 35px;
+}
+
+/* Nav related Style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
