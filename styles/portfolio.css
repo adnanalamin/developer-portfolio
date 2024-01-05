@@ -98,10 +98,37 @@ nav a {
 }
 
 /* main section style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* About section style */
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.about-info > .info-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.about-info > .info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
 }
